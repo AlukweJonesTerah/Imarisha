@@ -1,0 +1,62 @@
+2024-02-22 11:40:39,566 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 11:41:58,327 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 11:43:00,173 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 11:43:33,484 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 11:44:02,755 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 11:44:51,729 ERROR: Exception on / [POST] [in /home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py:828]
+Traceback (most recent call last):
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/tj/Rop/audrey/home/routes.py", line 109, in chatbot_response
+    input_sequence = tokenizer.texts_to_sequences([processed_input])
+NameError: name 'tokenizer' is not defined
+2024-02-22 11:46:36,574 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 11:47:43,348 ERROR: Exception on / [POST] [in /home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py:828]
+Traceback (most recent call last):
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/tj/Rop/audrey/home/routes.py", line 128, in chatbot_response
+    input_sequence = tokenizer.texts_to_sequences([processed_input])
+NameError: name 'tokenizer' is not defined
+2024-02-22 12:03:14,882 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:04:34,768 ERROR: Exception on / [POST] [in /home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py:828]
+Traceback (most recent call last):
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/tj/Rop/audrey/.venv/lib/python3.10/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/tj/Rop/audrey/home/routes.py", line 109, in chatbot_response
+    input_sequence = tokenizer.texts_to_sequences([processed_input])
+NameError: name 'tokenizer' is not defined
+2024-02-22 12:06:00,513 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:09:24,431 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:17:56,188 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:18:20,959 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:21:05,247 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:26:10,685 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:35:11,726 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:38:46,959 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:39:18,608 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:42:59,582 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 12:43:46,109 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 13:14:33,259 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 13:15:25,783 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 13:35:22,188 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 13:39:39,852 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
+2024-02-22 14:00:29,587 INFO: Flask Popovers [in /home/tj/Rop/audrey/home/__init__.py:42]
